@@ -1,0 +1,38 @@
+.features {
+    width: 75%;
+    margin: 2.5rem auto;
+
+    & h1 {
+        text-align: center;
+        margin-bottom: 2.5rem;
+        font-weight: 700;
+        color: #303030;
+    }
+
+    & .col-md-4:nth-of-type(2) {
+        text-align: center;
+    }
+
+    & .feature { 
+        display: inline-block;
+        & p {
+            text-align: center;
+            font-weight: 600;
+            font-size: 150%;
+        }
+
+        & img {
+            height: 150px;
+            width: auto;
+            fill: #0a3f7b;
+        }
+    }
+
+    & .feature.quality {
+        text-align: center;
+    }
+
+    & .feature.creative {
+        float: right;
+    }
+}

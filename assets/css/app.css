@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+.header {
+  font-family: "Open Sans", sans-serif;
+  width: 100%; }
+  .header img {
+    width: 100%;
+    height: 750px; }
+  .header .content {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 18%; }
+    .header .content h1 {
+      font-weight: 700;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 7.5rem;
+      margin: 0; }
+    .header .content p {
+      margin-top: -1rem;
+      color: #ffffff;
+      font-size: 2.3rem; }
+
+.about {
+  width: 75%;
+  margin: -2.5rem auto 0 auto; }
+  .about h1.header {
+    font-weight: 700;
+    color: #303030;
+    margin-bottom: 1rem; }
+  .about img {
+    height: 75%;
+    width: auto;
+    text-align: center; }
+
+.features {
+  width: 75%;
+  margin: 2.5rem auto; }
+  .features h1 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    color: #303030; }
+  .features .col-md-4:nth-of-type(2) {
+    text-align: center; }
+  .features .feature {
+    display: inline-block; }
+    .features .feature p {
+      text-align: center;
+      font-weight: 600;
+      font-size: 150%; }
+    .features .feature img {
+      height: 150px;
+      width: auto;
+      fill: #0a3f7b; }
+  .features .feature.quality {
+    text-align: center; }
+  .features .feature.creative {
+    float: right; }
+
+.portfolio {
+  width: 100%;
+  background: url("../img/bg.png") no-repeat;
+  background-size: 100%; }
+  .portfolio .portfolio-container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+    text-align: center; }
+    .portfolio .portfolio-container > h1 {
+      color: #ffffff;
+      margin-bottom: 3.5rem; }
+  .portfolio .work {
+    -webkit-box-shadow: 0px 0px 42px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 42px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 42px 1px rgba(0, 0, 0, 0.75);
+    transition: all .25s ease-in-out;
+    cursor: pointer; }
+    .portfolio .work img {
+      width: 100%;
+      height: auto; }
+    .portfolio .work p {
+      background-color: #e8e8e8;
+      padding: .5rem 0;
+      font-weight: 600;
+      font-size: 150%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; }
+    .portfolio .work:hover {
+      -webkit-box-shadow: 0px 0px 73px 8px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 73px 8px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 73px 8px rgba(0, 0, 0, 0.75); }
+
+.contact {
+  width: 100%; }
+  .contact .contact-container {
+    width: 75%;
+    margin: 2.5rem auto; }
+  .contact h1.header {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem; }
+  .contact .contact-method {
+    text-align: center; }
+    .contact .contact-method > img {
+      height: 150px;
+      width: auto; }
+    .contact .contact-method > p {
+      font-weight: 600;
+      font-size: 150%; }
+
+.footer {
+  width: 100%;
+  background-color: #e8e8e8; }
+  .footer .footer-container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 1rem 0; }
+    .footer .footer-container p {
+      margin: 0; }
+
+.body {
+  width: 100%;
+  position: absolute; }

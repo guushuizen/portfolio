@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import 'vars';
+
+@import 'partials/navbar';
+@import 'partials/about';
+@import 'partials/features';
+@import 'partials/portfolio';
+@import 'partials/contact';
+@import 'partials/footer';
+
+.body {
+    width: 100%;
+    position: absolute;
+}

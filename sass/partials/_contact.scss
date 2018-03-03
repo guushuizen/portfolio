@@ -1,0 +1,29 @@
+.contact {
+    width: 100%;
+
+
+    & .contact-container {
+        width: 75%;
+        margin: 2.5rem auto;
+    }
+
+    & h1.header {
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+
+    & .contact-method {
+        text-align: center;
+
+        & > img {
+            height: 150px;
+            width: auto;
+        }
+
+        & > p {
+            font-weight: 600;
+            font-size: 150%;
+        }
+    }
+}
