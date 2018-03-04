@@ -1,3 +1,12 @@
+@media (max-width: 768px) {
+    .features .feature {
+        float: none !important;
+        margin: 0 auto;
+        display: block !important;
+        text-align: center;
+    }
+}
+
 .features {
     width: 75%;
     margin: 2.5rem auto;
@@ -36,3 +45,4 @@
         float: right;
     }
 }
+
